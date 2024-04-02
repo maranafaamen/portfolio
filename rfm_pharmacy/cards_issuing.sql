@@ -32,4 +32,4 @@ from
 	sales_by_week sbw
 join
 	registrations_by_week rbw
-on rbw.registration_week = sbw.week
+	on rbw.registration_week = sbw.week
