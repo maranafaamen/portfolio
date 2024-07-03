@@ -34,3 +34,21 @@
 - **PostgreSQL** - формирование SQL-запросов.
 
 - **Metabase** - визуализация результатов SQL-запросов.
+
+## 3. [ETL-скрипт для загрузки данных для онлайн-школы](https://github.com/maranafaamen/portfolio/tree/main/edtech_etl)
+
+![cover](/edtech_etl/assets/cover.png)
+
+### Задачи
+1. Написать ETL-скрипт для получения данных по API онлайн-школы, их обработки и загрузки в БД на PostgreSQL.
+2. Реализовать логирование.
+3. Добавить дополнительные фичи - агрегацию данных за день в Google Sheets и отправку уведомлений на email.
+
+### Инструменты
+
+- **PostgreSQL** - создание БД и таблиц в ней.
+- **Python** - реализация пайплайна.
+- requests - для работы с веб-сервисами.
+- gspread - для работы с Google Sheets.
+- paramiko, sshtunnel - для подключения к серверу по SSH.
+- psycopg2 - для работы с PostgreSQL.
